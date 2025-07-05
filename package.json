@@ -1,0 +1,27 @@
+{
+  
+  "name": "namatete",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d ."
+}
+,
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nchipi/Namatete.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nchipi/Namatete/issues"
+  },
+  "homepage": "https://nchipi.github.io/Namatete",
+  "description": "",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
